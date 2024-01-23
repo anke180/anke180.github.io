@@ -1,0 +1,743 @@
+/* voor hele pagina */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  background-image: url();
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+}
+
+/* Index pagina*/
+.index {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  /* width: 100%;
+  height: 100%; */
+} 
+
+.links {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+}
+
+.row{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 100px;
+  width: 700px;
+}
+
+.sub{
+  margin-left: 60px;
+}
+
+/* honing/hexagon */
+.hexa1 { 
+  color: #3D3B8E;
+  font-size: 150px;
+  -webkit-text-stroke-color: #000000;
+  -webkit-text-stroke-width: 5px;
+  height: 95px;
+  width: 74px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+}
+
+.hexa2 { 
+  color: #6883BA;
+  font-size: 150px;
+  -webkit-text-stroke-color: #000000;
+  -webkit-text-stroke-width: 5px;
+  height: 95px;
+  width: 74px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+}
+
+.hexa3 { 
+  color: #F9F9F9;
+  font-size: 150px;
+  -webkit-text-stroke-color: #000000;
+  -webkit-text-stroke-width: 5px;
+  height: 95px;
+  width: 74px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+}
+
+.hexa4 { 
+  color: #B0E298;
+  font-size: 150px;
+  -webkit-text-stroke-color: #000000;
+  -webkit-text-stroke-width: 5px;
+  height: 95px;
+  width: 74px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+}
+
+.hexa5 { 
+  color: #FFEE93;
+  font-size: 150px;
+  -webkit-text-stroke-color: #000000;
+  -webkit-text-stroke-width: 5px;
+  height: 95px;
+  width: 74px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+}
+
+.rechts{
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+}
+
+.parent {
+  display: flex;
+  flex-direction: row;
+}
+
+.fotoblok {
+  height: 500px;
+  width: 700px;
+  border-radius: 120px;
+  background-color: #B0E298;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+/* foto van mij */
+.hexagonfoto {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.hexa6 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 530px;
+  width: 100%;
+  height: 100%;
+  background-image: url(../images/vogel.jpg);
+  background-size: cover;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* navigatiebalk */
+.nav {
+  display: flex;
+  flex-direction: row;
+  margin-left: 50px;
+}
+
+.navigatiebalk {
+  width: 150px;
+  height: 150px;
+  background-color: #3D3B8E;
+  position: fixed;
+  z-index: 99
+}
+
+.hometekst {
+  color: #FFEE93;
+  font-size: 25px;
+}
+
+.overmijtekst {
+  color: #B0E298;
+  font-size: 25px;
+}
+
+.projectstekst {
+  color: #6883BA;
+  font-size: 25px;
+}
+
+.contacttekst {
+  color: #F9F9F9;
+  font-size: 25px;
+}
+
+/* informatie van mij */
+.naam {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.naampje {
+  font-size: 50px;
+}
+
+.logoEnTekst {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.klavertje4 {
+  width: 169px;
+  height: 194px;
+}
+
+.informatie {
+  font-size: 20px;
+}
+
+/* About me pagina */
+.overmij {
+  display: flex;
+  flex-direction: column;
+}
+
+.links2 {
+  display: flex;
+  flex-direction: row;
+}
+
+.boven {
+  margin-left: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+}
+
+.wrapper{
+  height: 100%;
+}
+
+/* hobbies hexagon */
+.hex_top1{
+  width: 0;
+  border-bottom: 75px solid #6883BA;
+  border-left: 175px solid transparent;
+  border-right: 175px solid transparent;
+  margin-left: 25px;
+  margin-top: 30px;
+}
+
+.hex_mid1{
+  width: 350px;
+  height: 150px;
+  background-color: #6883BA;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 25px;
+  margin-right: 25px;
+  font-size: 25px;
+  color: #000000;
+}
+
+.hex_bot1{
+  width: 0;
+  border-top: 75px solid #6883BA;
+  border-left: 175px solid transparent;
+  border-right: 175px solid transparent;
+  margin-left: 25px;
+  margin-bottom: 30px;
+}
+
+/* foto tennisballen hexageon */
+.hexa7 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 200px;
+  width: 100%;
+  height: 100%;
+  background-image: url(../images/tennis-balls.jpg);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-color: #000000;
+  -webkit-text-stroke-width: 3px;
+}
+
+/* knowledge hexagon */
+.hex_top2{
+  width: 0;
+  border-bottom: 75px solid #FFEE93;
+  border-left: 175px solid transparent;
+  border-right: 175px solid transparent;
+  margin-left: 25px;
+  margin-top: 30px;
+}
+
+.hex_mid2{
+  width: 350px;
+  height: 150px;
+  background-color: #FFEE93;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 25px;
+  margin-right: 25px;
+  font-size: 25px;
+  color: #000000;
+}
+
+.hex_bot2{
+  width: 0;
+  border-top: 75px solid #FFEE93;
+  border-left: 175px solid transparent;
+  border-right: 175px solid transparent;
+  margin-left: 25px;
+  margin-bottom: 30px;
+}
+
+/* foto knowledge hexagon */
+.hexa8 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 200px;
+  width: 100%;
+  height: 100%;
+  background-image: url(../images/animatie.gif);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-color: #000000;
+  -webkit-text-stroke-width: 3px;
+}
+
+.rechts2 {
+  display: flex;
+  flex-direction: row;
+}
+
+.onder {
+  margin-left: 75px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+}
+
+/* foto age/birthday hexagon */
+.hexa9 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 200px;
+  width: 100%;
+  height: 100%;
+  background-image: url(../images/27\ januari.jpg);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-color: #000000;
+  -webkit-text-stroke-width: 3px;
+}
+
+/* birthday/age hexagon */
+.hex_top3{
+  width: 0;
+  border-bottom: 75px solid #3D3B8E;
+  border-left: 175px solid transparent;
+  border-right: 175px solid transparent;
+  margin-left: 25px;
+  margin-top: 30px;
+}
+
+.hex_mid3{
+  width: 350px;
+  height: 150px;
+  background-color: #3D3B8E;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 25px;
+  margin-right: 25px;
+  font-size: 25px;
+  color: #FFFFFF;
+}
+
+.hex_bot3{
+  width: 0;
+  border-top: 75px solid #3D3B8E;
+  border-left: 175px solid transparent;
+  border-right: 175px solid transparent;
+  margin-left: 25px;
+  margin-bottom: 30px;
+}
+
+/* foto rijkevoort hexagon */
+.hexa10 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 200px;
+  width: 100%;
+  height: 100%;
+  background-image: url(../images/Rijkevoort.jpg);
+  background-size: contain;
+  background-position: center;
+  background-position-x: 9px;
+  background-position-y: 44px;
+  background-repeat: no-repeat;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-color: #000000;
+  -webkit-text-stroke-width: 3px;
+}
+
+/* village hexagon */
+.hex_top4{
+  width: 0;
+  border-bottom: 75px solid #B0E298;
+  border-left: 175px solid transparent;
+  border-right: 175px solid transparent;
+  margin-left: 25px;
+  margin-top: 30px;
+}
+
+.hex_mid4{
+  width: 350px;
+  height: 150px;
+  background-color: #B0E298;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 25px;
+  margin-right: 25px;
+  font-size: 25px;
+  color: #000000;
+}
+
+.hex_bot4{
+  width: 0;
+  border-top: 75px solid #B0E298;
+  border-left: 175px solid transparent;
+  border-right: 175px solid transparent;
+  margin-left: 25px;
+  margin-bottom: 30px;
+}
+
+/* Projects pagina */
+.projects {
+  display: flex;
+  flex-direction: column;
+}
+
+.boven2 {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  margin: 15px;
+}
+
+.midden2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+/* project hexagon */
+.hex_top5{
+  margin-top: 100px;
+  width: 0;
+  border-bottom: 100px solid #B0E298;
+  border-left: 175px solid transparent;
+  border-right: 175px solid transparent;
+  margin-left: 25px;
+}
+
+.hex_mid5{
+  width: 350px;
+  height: 200px;
+  background-color: #B0E298;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 25px;
+  margin-right: 25px;
+  font-size: 25px;
+  color: #000000;
+}
+
+.hex_bot5{
+  width: 0;
+  border-top: 100px solid #B0E298;
+  border-left: 175px solid transparent;
+  border-right: 175px solid transparent;
+  margin-left: 25px;
+} 
+
+/* mastermind */
+.hexa11 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 400px;
+  height: 100%;
+  background-image: url(../images/mastermind.jpg);
+  background-size: contain;
+  background-position: center;
+  background-position-x: 7px;
+  background-position-y: 143px;
+  background-repeat: no-repeat;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-color: #000000;
+  -webkit-text-stroke-width: 3px;
+}
+
+/* placeholder 1 */
+.hexa12 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 400px;
+  height: 100%;
+  background-image: url(../images/reisbureau.jpg);
+  background-size: contain;
+  background-position: center;
+  background-position-x: 23px;
+  background-position-y: 168px;
+  background-repeat: no-repeat;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-color: #000000;
+  -webkit-text-stroke-width: 3px;
+}
+
+/* placeholders hexagon */
+.hex_top6{
+  width: 0;
+  border-bottom: 100px solid #B0E298;
+  border-left: 175px solid transparent;
+  border-right: 175px solid transparent;
+  margin-left: 25px;
+  margin-top: 100px;
+}
+
+.hex_mid6{
+  width: 350px;
+  height: 200px;
+  background-color: #B0E298;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 25px;
+  margin-right: 25px;
+  font-size: 25px;
+  color: #000000;
+}
+
+.hex_bot6{
+  width: 0;
+  border-top: 100px solid #B0E298;
+  border-left: 175px solid transparent;
+  border-right: 175px solid transparent;
+  margin-left: 25px;
+}
+
+.onder2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  margin: 15px;
+  margin-bottom: 100px;
+}
+
+/* pinkGOOSE */
+.hexa13 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 400px;
+  height: 100%;
+  background-image: url(../images/pinkGOOSE.jpg);
+  background-size: contain;
+  background-position: center;
+  background-position-x: 7px;
+  background-position-y: 200px;
+  background-repeat: no-repeat;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-color: #000000;
+  -webkit-text-stroke-width: 3px;
+}
+
+/* placeholder 2 */
+.hexa14 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 400px;
+  height: 100%;
+  background-image: url(../images/restaurant\ menu.png);
+  background-size: contain;
+  background-position: center;
+  background-position-x: 0px;
+  background-position-y: 130px;
+  background-repeat: no-repeat;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-color: #000000;
+  -webkit-text-stroke-width: 3px;
+}
+
+/* Contact pagina */
+.contact {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 100%;
+}
+
+.hexaContact {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.klaver {
+  width: 500px;
+}
+
+.hex_top7{
+  width: 0;
+  border-bottom: 150px solid #B0E298;
+  border-left: 250px solid transparent;
+  border-right: 250px solid transparent;
+  margin-left: 25px;
+  margin-top: 30px;
+}
+
+.hex_mid7{
+  width: 500px;
+  height: 300px;
+  background-color: #B0E298;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 25px;
+  margin-right: 25px;
+  font-size: 25px;
+  color: #000000;
+}
+
+.hex_bot7{
+  width: 0;
+  border-top: 150px solid #B0E298;
+  border-left: 250px solid transparent;
+  border-right: 250px solid transparent;
+  margin-left: 25px;
+  margin-bottom: 30px;
+}
+/* einde pagina contact */
+
+
+/* responsiv */
+/* iPad Air */
+@media only screen and (max-width: 1180px)
+{
+  /* Index pagina */
+  .fotoblok {
+    width: 470px;
+    margin-left: 70px;
+  }
+
+  .nav {
+    margin-left: 10px;
+  }
+
+  .klavertje4 {
+    width: 150px;
+    height: 160px;
+    margin-left: 45px;
+  }
+
+  /* About me pagina */
+  .hexa7 {
+    background-position-x: 10px;
+    background-position-y: 145px;
+    background-repeat: repeat;
+  }
+
+  .hexa8 {
+    background-position-x: -2px;
+    background-position-y: 115px;
+  }
+
+  .hexa9 {
+    background-position-x: 0px;
+    background-position-y: 112px;
+  }
+
+  .hexa10 {
+    background-position-x: 0px;
+    background-position-y: 130px;
+    background-repeat: repeat;
+  }
+
+  /* Contact pagina */
+  .contact {
+    margin-bottom: 80px;
+  }
+
+  .klaver {
+    margin-bottom: 30px;
+  }
+
+  .hex_bot7 {
+    margin-bottom: 30px;
+  } 
+}
