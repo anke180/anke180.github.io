@@ -146,10 +146,11 @@ body {
   font-size: 530px;
   width: 100%;
   height: 100%;
-  background-image: url(../images/foto/_mij.jpg);
-  background-size: cover;
+  background-image: url(../images/foto\ mij\ 2.jpg);
+  background-size: contain;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  background-position: center;
 }
 
 /* navigatiebalk */
@@ -679,12 +680,12 @@ body {
   position: relative;
 }
 
-#ruimte a{
+/* #ruimte a{
   text-decoration: none;
   background-color: grey;
   color: black;
   border-style: dotted;
-}
+} */
 
 .ankestest{
   bottom:0px;
